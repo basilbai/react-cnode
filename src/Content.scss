@@ -1,0 +1,44 @@
+.site_custom_tab_bar {
+  z-index: 1;
+  background: #fff;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+:global {
+  .ant-card .ant-card-body {
+    padding: 10px;
+  }
+}
+body {
+  :global {
+    .ant-card-body {
+      padding: 10px;
+    }
+  }
+}
+.ant-card-body {
+    padding: 10px;
+  }
+  .ant-card-head{
+      padding: 0;
+      min-height: 0;
+      margin-bottom: 0;
+  }
+  .ant-card-head-title{
+      padding: 10px;
+      background-color: #f6f6f6;
+  }
+  .cnode_app_download{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      a{
+          color: #777777;
+      }
+  }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Card, Divider, Comment, List, Avatar, Spin } from 'antd';
+import { Row, Col, Card, Divider, Comment, List } from 'antd';
 import axios from 'axios';
 import moment from 'moment';
 import { RightInfoCard } from '../index';

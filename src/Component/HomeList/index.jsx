@@ -1,5 +1,7 @@
 import React from 'react';
 import { Tabs, List, Avatar, Card } from 'antd';
+import { Link } from 'react-router-dom';
+
 import moment from 'moment';
 import axios from 'axios';
 
@@ -116,7 +118,8 @@ export default class HomeList extends React.Component {
                                                     <List.Item extra={moment([item.create_at]).fromNow()}>
                                                         <List.Item.Meta
                                                             avatar={<Avatar src={item.author.avatar_url} />}
-                                                            title={<a href={`/topic/${item.id}`}>{item.title}</a>}
+                                                            //title={<a href={`/topic/${item.id}`}>{item.title}</a>}
+                                                            title={<Link to={`/topic/${item.id}`}>{item.title}</Link>}
                                                         />
                                                     </List.Item>
                                                 )}

@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #444;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  .brand {
+    max-width: 120px;
+    height: auto;
+    vertical-align: middle;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    a {
+      color: #ccc;
+      padding: 0px 15px;
+    }
+    a:hover {
+      color: white;
+    }
+  }
+}

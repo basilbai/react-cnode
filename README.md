@@ -1,7 +1,6 @@
-##安装依赖
-###`yarn`
 
-##启动项目
+### `yarn`
+
 ### `yarn start`
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,6 +13,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-##示例图
 
-(http://github.com/basilbai/react-cnode/raw/master/images/home.png)
+(http://github.com/basilbai/react-cnode/master/images/home.png)

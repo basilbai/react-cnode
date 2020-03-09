@@ -14,4 +14,4 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 
-(http://github.com/basilbai/react-cnode/master/images/home.png)
+![image](https://github.com/basilbai/react-cnode/raw/master/images/home.png)
